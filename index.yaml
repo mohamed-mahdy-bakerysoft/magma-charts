@@ -18,7 +18,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - https://github.com/jblakley/magma-charts/cwf-orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/cwf-orc8r-1.8.0.tgz
     version: 1.8.0
   domain-proxy:
   - apiVersion: v2
@@ -35,7 +35,7 @@ entries:
     - https://github.com/magma/magma
     type: application
     urls:
-    - https://github.com/jblakley/magma-charts/domain-proxy-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/domain-proxy-1.8.0.tgz
     version: 1.8.0
   feg-orc8r:
   - apiVersion: v2
@@ -55,7 +55,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - https://github.com/jblakley/magma-charts/feg-orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/feg-orc8r-1.8.0.tgz
     version: 1.8.0
   lte-orc8r:
   - apiVersion: v2
@@ -75,7 +75,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - https://github.com/jblakley/magma-charts/lte-orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/lte-orc8r-1.8.0.tgz
     version: 1.8.0
   orc8r:
   - apiVersion: v2
@@ -115,6 +115,6 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - https://github.com/jblakley/magma-charts/orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/orc8r-1.8.0.tgz
     version: 1.8.0
 generated: "2024-10-03T13:50:12.755545636Z"
