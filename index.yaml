@@ -3,7 +3,7 @@ entries:
   cwf-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T15:07:49.351567955Z"
+    created: "2024-11-27T15:27:34.462702816Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -23,7 +23,7 @@ entries:
   domain-proxy:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T15:07:49.356660581Z"
+    created: "2024-11-27T15:27:34.465325716Z"
     description: A Helm chart for magma orchestrator's domain-proxy module.
     digest: 00096708ee37e3266d1eaf9b060cf347bdade9ac2b706925840436275db87aeb
     keywords:
@@ -40,7 +40,7 @@ entries:
   feg-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T15:07:49.359114305Z"
+    created: "2024-11-27T15:27:34.466768056Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -60,7 +60,7 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T15:07:49.361913044Z"
+    created: "2024-11-27T15:27:34.468527353Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -80,7 +80,7 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2024-11-27T15:07:49.387937968Z"
+    created: "2024-11-27T15:27:34.487739626Z"
     dependencies:
     - condition: certs.create
       name: certs
@@ -106,15 +106,15 @@ entries:
       repository: file://../orc8rlib
       version: 0.1.4
     description: Helm chart for the Magma Orchestrator
-    digest: 58e0b590031d3b9c2ed164f841cde844ae3a9157e77a852f50e882902ec695c5
+    digest: 823b6f0afd8dceccc6ff798f49dce4e83bae7c5ce2dd65ab4245acb45fa6a511
     home: https://linuxfoundation.jfrog.io/magma-docker-test
     keywords:
     - magma
     - orc8r
     name: orc8r
     sources:
-    - https://github.com/magma/magma
+    - https://jblakley.github.io/magma-charts/
     urls:
     - orc8r-1.9.0.tgz
     version: 1.9.0
-generated: "2024-11-27T15:07:49.347694188Z"
+generated: "2024-11-27T15:27:34.46126294Z"
