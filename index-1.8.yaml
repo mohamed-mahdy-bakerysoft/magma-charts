@@ -3,7 +3,7 @@ entries:
   cwf-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T14:20:13.576324489Z"
+    created: "2024-10-03T13:50:12.757108287Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -18,12 +18,12 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - cwf-orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/cwf-orc8r-1.8.0.tgz
     version: 1.8.0
   domain-proxy:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T14:20:13.579593519Z"
+    created: "2024-10-03T13:50:12.761915573Z"
     description: A Helm chart for magma orchestrator's domain-proxy module.
     digest: 00096708ee37e3266d1eaf9b060cf347bdade9ac2b706925840436275db87aeb
     keywords:
@@ -35,12 +35,12 @@ entries:
     - https://github.com/magma/magma
     type: application
     urls:
-    - domain-proxy-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/domain-proxy-1.8.0.tgz
     version: 1.8.0
   feg-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T14:20:13.583534034Z"
+    created: "2024-10-03T13:50:12.76351349Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -55,12 +55,12 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - feg-orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/feg-orc8r-1.8.0.tgz
     version: 1.8.0
   lte-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T14:20:13.587411987Z"
+    created: "2024-10-03T13:50:12.765196132Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -75,51 +75,12 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - lte-orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/lte-orc8r-1.8.0.tgz
     version: 1.8.0
   orc8r:
   - apiVersion: v2
-    appVersion: 1.9.0
-    created: "2024-11-27T14:20:13.624202426Z"
-    dependencies:
-    - condition: certs.create
-      name: certs
-      repository: ""
-      version: 0.1.0
-    - condition: secrets.create
-      name: secrets
-      repository: ""
-      version: 0.1.10
-    - condition: metrics.enabled
-      name: metrics
-      repository: ""
-      version: 1.4.24
-    - condition: nms.enabled
-      name: nms
-      repository: ""
-      version: 0.1.12
-    - condition: logging.enabled
-      name: logging
-      repository: ""
-      version: 0.1.10
-    - name: orc8rlib
-      repository: file://../orc8rlib
-      version: 0.1.4
-    description: Helm chart for the Magma Orchestrator
-    digest: 58e0b590031d3b9c2ed164f841cde844ae3a9157e77a852f50e882902ec695c5
-    home: https://linuxfoundation.jfrog.io/magma-docker-test
-    keywords:
-    - magma
-    - orc8r
-    name: orc8r
-    sources:
-    - https://github.com/magma/magma
-    urls:
-    - orc8r-1.9.0.tgz
-    version: 1.9.0
-  - apiVersion: v2
     appVersion: 1.8.0
-    created: "2024-11-27T14:20:13.602908401Z"
+    created: "2024-10-03T13:50:12.792875867Z"
     dependencies:
     - condition: certs.create
       name: certs
@@ -154,6 +115,6 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - orc8r-1.8.0.tgz
+    - https://jblakley.github.io/magma-charts/orc8r-1.8.0.tgz
     version: 1.8.0
-generated: "2024-11-27T14:20:13.566119513Z"
+generated: "2024-10-03T13:50:12.755545636Z"
